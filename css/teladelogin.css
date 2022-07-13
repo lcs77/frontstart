@@ -3,25 +3,24 @@ html,body {
 }
 
 body.teladelogin1 {
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-	font-size: 14px;
-	font-weight: bold;
-	font-style: normal;
+	background: url(../assets/ga2.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .teladelogin1 .brand {
-	width: 90px;
-	height: 90px;
-	overflow: hidden;
-	border-radius: 60%;
-	margin: 40px auto;
-	box-shadow: 0 4px 8px rgba(0,0,0,.05);
-	position: relative;
-	z-index: 1;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .teladelogin1  .brand img {
-	width:  100%;
+	width:  60%;
+	align-items: center;
+	display: flex;
+	margin-left: 125px ;
+	margin-bottom: 5px;
 }
 
 .teladelogin1  .card-wrapper {
@@ -39,6 +38,8 @@ body.teladelogin1 {
 
 .teladelogin1  .card .card-title {
 	margin-bottom: 40px;
+	margin-top: 30px;
+	
 }
 
 .teladelogin1  .form-control {
@@ -55,7 +56,7 @@ body.teladelogin1 {
 
 .teladelogin1  .footer {
 	margin: 50px 0;
-	color: rgb(2, 0, 0);
+	color: rgb(252, 252, 252);
 	text-align: center;
 	font-weight: bold;
 
@@ -84,3 +85,4 @@ body.teladelogin1 {
 		padding: 15px;
 	}
 }
+
