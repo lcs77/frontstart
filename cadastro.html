@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="brunodlucka">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>tela de cadastro &mdash; G Sáude</title>
+	<title>cadastro &mdash; ProntMED</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="/css/teladelogin.css">
 </head>
@@ -16,81 +16,68 @@
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper">
 					<div class="brand">
-						<img src="/assets/prontmedLogo.png" class="img1" alt="tela de cadastro">
+						 <img src="/assets/prontmedLogo.png" class="img1" alt="tela de cadastro">
 					</div>
-					<div class="card fat">
-						<div class="card-body">
-							<h4 class="card-title">Tela de Cadastro</h4>
-							<form method="POST" class="casdastro-validation" novalidate="">
+					    <div class="card fat">
+						    <div class="card-body">
+							     <h4 class="card-title">Tela de Cadastro</h4>
+							     <form method="POST" class="casdastro-validation" novalidate="">
 								<div class="form-group">
-									<label for="name">CPF</label>
-									<input id="name" type="text" class="form-control" name="name" required autofocus>
+									 <label for="name">CPF</label>
+									 <input id="name" type="text" class="form-control" name="name" required autofocus>
 									<div class="invalid-feedback">
-										Qual é o seu nome?
+										 Qual é o seu nome?
 									</div>
 								</div>
 
-<!-- TESTANTO COMMIT DE RAFA-->
-
+								 <div class="form-group">
+									 <label for="email">Endereço de E-mail</label>
+									 <input id="email" type="email" class="form-control" name="email" required>
+									 <div class="invalid-feedback">
+										 Endereço de E-mail Invalido
+									</div>
+								 </div>
 
 								<div class="form-group">
-									<label for="email">Endereço de E-mail</label>
-									<input id="email" type="email" class="form-control" name="email" required>
+									     <label for="password">Inserir Senha</label>
+									     <input id="password" type="password" class="form-control" name="password" required data-eye>
 									<div class="invalid-feedback">
-										Endereço de E-mail Invalido
+										 É Obrigatorio o uso de senha!
 									</div>
 								</div>
-
-
-
-								<div class="form-group">
-									<label for="password">Inserir Senha</label>
-									<input id="password" type="password" class="form-control" name="password" required data-eye>
-									<div class="invalid-feedback">
-										É Obrigatorio o uso de senha!
-									</div>
-								</div>
-
-
-
 
 								<div class="form-group">
 									<div class="custom-checkbox custom-control">
-										<input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
-										<label for="agree" class="custom-control-label">Eu li e concordo com os <a href="#">Termos e Condições</a></label>
+										     <input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
+										     <label for="agree" class="custom-control-label">Eu li e concordo com os <a href="#">Termos e Condições</a></label>
 										<div class="invalid-feedback">
-											Você deve concordar com nossos Termos e Condições
+											 Você deve concordar com nossos Termos e Condições
 										</div>
 									</div>
 								</div>
 
-
-
-
-								<div class="form-group m-0">
-									<button type="submit" class="btn btn-primary btn-block">
-										Cadastrar
-									</button>
-								</div>
-
-
+								 <div class="form-group m-0">
+									 <button type="submit" class="btn btn-primary btn-block">
+										 Cadastrar
+									 </button>
+								 </div>
 								
 								<div class="mt-4 text-center">
-									Você já possui uma conta? <a href="index.html">Login</a>
+									 Você já possui uma conta? <a href="index.html">Login</a>
 								</div>
-							</form>
-						</div>
-					</div>
+							 </form>
+						    </div>
+					    </div>
 					<div class="footer">
-						Projeto Start &copy; ProntMed &mdash; O Futuro para o seu gerenciamento
+						 Projeto Start &copy; ProntMed &mdash; O Futuro para o seu gerenciamento
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script src="js/my-login.js"></script>
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	 <script src="js/my-login.js"></script>
 </body>
 </html>
