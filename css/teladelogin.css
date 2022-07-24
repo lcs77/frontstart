@@ -2,26 +2,25 @@ html,body {
 	height: 100%;
 }
 
-body.teladelogin1 {
-	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-	font-size: 14px;
-	font-weight: bold;
-	font-style: normal;
+body {
+    background-color: #030c33;
 }
 
 .teladelogin1 .brand {
-	width: 90px;
-	height: 90px;
-	overflow: hidden;
-	border-radius: 60%;
-	margin: 40px auto;
-	box-shadow: 0 4px 8px rgba(0,0,0,.05);
-	position: relative;
-	z-index: 1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h4{
+	padding-left: 65px;
 }
 
 .teladelogin1  .brand img {
-	width:  100%;
+	
+	height: 155px;
+	align-items: center;
+	display: flex;
+	margin-left: 125px ;
+	margin-bottom: 5px;
 }
 
 .teladelogin1  .card-wrapper {
@@ -37,34 +36,40 @@ body.teladelogin1 {
 	padding: 10px;
 }
 
+
+
 .teladelogin1  .card .card-title {
 	margin-bottom: 40px;
+	margin-top: 30px;
+	
+	
 }
 
 .teladelogin1  .form-control {
 	border-width: 2.3px;
 }
 
+
+
 .teladelogin1  .form-group label {
 	width: 100%;
 }
 
-.teladelogin1  .btn.btn-block {
-	padding: 12px 10px;
-}
+
 
 .teladelogin1  .footer {
 	margin: 50px 0;
-	color: rgb(2, 0, 0);
+	color: rgb(252, 252, 252);
 	text-align: center;
 	font-weight: bold;
 
 }
-.texto-redefinir{ 
-	align-items: center;
 
+
+.teladelogin1 .brand {
+    width: 350px;
+    padding-left: 55px;
 }
-
 
 
 
@@ -82,5 +87,72 @@ body.teladelogin1 {
 
 	.my-login-page .card.fat .card-body {
 		padding: 15px;
+		
 	}
+}
+
+.botoes{
+display: flexbox;
+flex-direction: row;
+margin-left: 35px;
+
+
+
+
+}
+.form-group .m-0{
+    margin-right: 10px;
+	display: flex;
+	align-items: center;
+
+}
+
+.card-title{
+    font-size:40px;
+    display: flex;
+    justify-content :center;
+	color: white;
+	font-weight: bold;
+}
+
+.card.fat2{
+	background-color: #030c33;
+	color: white;
+}
+
+
+<!-- botões-->
+:hover{
+    color: #38b6ff;
+    transition: 0.3s all;
+}
+a{
+	color: white;
+	
+	
+	
+}
+
+.menu{
+    border: 2px solid #38b6ff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 35px;
+	display: flex;
+	justify-content: center;
+	
+	
+
+    
+}
+
+.menu:hover{
+    background-color: #38b6ff;
+    color: white;
+}
+
+
+label{
+
+	font-size: 20px;
 }
