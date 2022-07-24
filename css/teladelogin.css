@@ -103,8 +103,12 @@ margin-left: 35px;
     font-size:45px;
     display: flex;
     justify-content :center;
-    
 
 }
+.card.fat2{
+	background-color:#030c33 ;
+	color: white;
+}
+
 
 
