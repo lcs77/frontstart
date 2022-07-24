@@ -10,9 +10,13 @@ body {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+h4{
+	padding-left: 65px;
+}
 
 .teladelogin1  .brand img {
-	width:  60%;
+	
+	height: 155px;
 	align-items: center;
 	display: flex;
 	margin-left: 125px ;
@@ -32,9 +36,12 @@ body {
 	padding: 10px;
 }
 
+
+
 .teladelogin1  .card .card-title {
 	margin-bottom: 40px;
 	margin-top: 30px;
+	
 	
 }
 
@@ -42,13 +49,13 @@ body {
 	border-width: 2.3px;
 }
 
+
+
 .teladelogin1  .form-group label {
 	width: 100%;
 }
 
-.teladelogin1  .btn.btn-block {
-	padding: 12px 10px;
-}
+
 
 .teladelogin1  .footer {
 	margin: 50px 0;
@@ -57,14 +64,11 @@ body {
 	font-weight: bold;
 
 }
-.texto-redefinir{ 
-	align-items: center;
 
-}
 
 .teladelogin1 .brand {
     width: 350px;
-    padding-left: 70px;
+    padding-left: 55px;
 }
 
 
@@ -83,6 +87,7 @@ body {
 
 	.my-login-page .card.fat .card-body {
 		padding: 15px;
+		
 	}
 }
 
@@ -97,14 +102,57 @@ margin-left: 35px;
 }
 .form-group .m-0{
     margin-right: 10px;
+	display: flex;
+	align-items: center;
+
 }
 
 .card-title{
-    font-size:45px;
+    font-size:40px;
     display: flex;
     justify-content :center;
-    
+	color: white;
+	font-weight: bold;
+}
 
+.card.fat2{
+	background-color: #030c33;
+	color: white;
 }
 
 
+<!-- botões-->
+:hover{
+    color: #38b6ff;
+    transition: 0.3s all;
+}
+a{
+	color: white;
+	
+	
+	
+}
+
+.menu{
+    border: 2px solid #38b6ff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 35px;
+	display: flex;
+	justify-content: center;
+	
+	
+
+    
+}
+
+.menu:hover{
+    background-color: #38b6ff;
+    color: white;
+}
+
+
+label{
+
+	font-size: 20px;
+}
