@@ -300,7 +300,8 @@ a:hover{
   padding: 10px;
   border-radius: 15px;
   margin-left: 50px;
-  width: 20px;
+  width: 160px;
+ 
   
 }
 
@@ -308,8 +309,12 @@ a:hover{
   background-color: #38b6ff;
   color: white;
 }
-.controls{
+.controls2{
   color:  white;
+  display: flex;
+  justify-content: center;
+  
+  
 }
 small{
   color: #ffffff;
