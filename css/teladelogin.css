@@ -111,6 +111,7 @@ margin-left: 35px;
     font-size:40px;
     display: flex;
     justify-content :center;
+
 	color: white;
 	font-weight: bold;
 }
@@ -146,13 +147,3 @@ a{
     
 }
 
-.menu:hover{
-    background-color: #38b6ff;
-    color: white;
-}
-
-
-label{
-
-	font-size: 20px;
-}

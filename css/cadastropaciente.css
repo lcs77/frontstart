@@ -17,6 +17,7 @@ html,body
 {
   background-color: #030c33;
   font-family: var(--open-sans);
+  color: #ffffff;
 }
 
 
@@ -37,13 +38,13 @@ p
 {
   line-height: 1em;
   text-align: center;
-  color: white;
+  color:#ffffff;
 }
 
 section h1
 {
   font-size: 25px;
-  color: white;
+  color:#ffffff;
 }
 
 section p small
@@ -61,7 +62,7 @@ section
 section p
 {
   font-size: 20px;
-  color: rgb(255, 255, 255);
+ color: #ffffff;
 }
 
 section img
@@ -74,7 +75,7 @@ section img
 
 section form
 {
-  background-color: var(--light-orange);
+  background-color:#030c33;
   border-radius: 4px;
   margin-top: 30px;
   padding: 30px;
@@ -118,7 +119,7 @@ section form
 .controls textarea:hover,
 .controls button:hover
 {
-  border: black;
+  border: rgb(255, 255, 255);
 }
 
 
@@ -282,3 +283,36 @@ footer ul li a:hover
   --default-orange: #ffffff;
   --white: #0b7ff3;
 }
+label{
+  color: #ffffff;
+}
+a{
+  color: white;
+}
+
+a:hover{
+  color: #38b6ff;
+  transition: 0.3s all;
+}
+
+.menu{
+  border: 2px solid #38b6ff;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 50px;
+  width: 20px;
+  
+}
+
+.menu:hover{
+  background-color: #38b6ff;
+  color: white;
+}
+.controls{
+  color:  white;
+}
+small{
+  color: #ffffff;
+}
+
+
