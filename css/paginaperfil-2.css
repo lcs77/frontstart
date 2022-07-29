@@ -11,12 +11,13 @@ body {
 
 }
 
+
 #logo>img {
     width: 150px;
     height: 75px;
     padding: 1%;
     margin: 0%;
-    margin-left: -33px;
+    margin-left: 28px;
 }
 
 #logo {
@@ -26,7 +27,7 @@ body {
 
 header {
     display: flex;
-    background-color: #132835;
+    background-color: #030c33;
     position: fixed;
     padding: 10px;
     width: 100%;
@@ -45,12 +46,24 @@ header {
     margin-top: 90px;
     padding-top: 30px;
     left: 0;
-    background: #052a42;
+    background: #030c33;
     transition: 0.5s;
     transition-property: left;
 }
 
-.sidebar .image {
+#body {
+    width: 250px;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 200px;
+    left: 80px;
+    right: 200px;
+    
+    padding-top: 30px;
+
+}
+
+.sidebar .imagem {
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -81,11 +94,11 @@ header {
 .sidebar ion-icon {
     padding-right: 30px;
 }
-
+/*botão*/
 label #sidebar_btn {
     z-index: 1;
     position: fixed;
-    left: 300px;
+    left: 10px;
     color: #fff;
     font-size: 45px;
     margin: 9px 0;
@@ -93,7 +106,7 @@ label #sidebar_btn {
     transition: 0.5s;
     transition-property: color;
 }
-
+/*cor do botão quando clica*/
 label #sidebar_btn:hover {
     color: #51b3ec;
 }
@@ -131,3 +144,4 @@ label #sidebar_btn:hover {
 .left span {
     color: #51b3ec;
 }
+
