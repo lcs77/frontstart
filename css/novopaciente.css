@@ -4,7 +4,12 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+.areanomefoto{
+  padding-left: 80px;
+  }
+  h2{
+     padding-right: 60px;
+  }
 
 html,body
 {

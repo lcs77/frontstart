@@ -166,7 +166,7 @@ label #sidebar_btn:hover {
     align-items: center;
     margin-top: 0%;
   }
-  .cardagendamentosdia {
+  .cardagendamentos {
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 39px;
@@ -178,31 +178,12 @@ label #sidebar_btn:hover {
 
    
   }
-  .cardagendamentosdia:hover {
+  .cardagendamentos:hover {
     transform: translateY(-5px);
     cursor: pointer;
   }
    
-  .cardagendamentosdia p {
-    color: #a3a5ae;
-    font-size: 16px;
-  }
-  .cardconsultasc {
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 220px;
-    transition: all 0.3s ease-out;
-    background-color: white;
-    
-  }
-  .cardconcultasc:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-  }
-   
-  .cardconsultasc p {
+  .cardagendamentos p {
     color: #a3a5ae;
     font-size: 16px;
   }
@@ -232,6 +213,7 @@ label #sidebar_btn:hover {
     margin-bottom: 25px;
     align-items: center;
     font-size: 14px;
+    width: 100%;
 }
 
 A {
@@ -251,9 +233,9 @@ A {
 
 }
 .campodepesquisa{
-    width: 600px; 
-    position: fixed;
-    margin-left: 970px;
+    width: 500px; 
+    position: static;
+    margin-left: 950px;
     margin-top: -140px;
 }
 .campodepesquisa .pesquisa input{
@@ -305,7 +287,7 @@ A {
     padding-top: 100px;
 }
 .addconsulta{
-    padding-left: 1650px;
+    padding-left: 1530px;
     margin-top: -140px;
 }
 
@@ -333,7 +315,7 @@ li{
    
     
 }
-.headertab{
+.headertabelas{
     display: flex;
     
 }
@@ -363,7 +345,7 @@ margin-bottom: 0;
   font-family: sans-serif;
   background: #030c33;
   border-radius: 10px; 
-  width: 1455px;
+  width: 1400px;
 }
 
 
@@ -379,13 +361,17 @@ margin-bottom: 0;
 }
 .titulotabela{
     color: white;
-    margin-right: 350px;
+    margin-right: 200px;
 }
 #titulotabelan{
-    margin-left: -200px;
+   margin-left: -60px;
+   margin-right: 340px;
 }
 #titulotabelah{
-    margin-left: -50px;
+    margin-left: 70px;
+}
+#titulotabelam{
+    margin-right: 200px;
 }
 
 td{
@@ -395,16 +381,16 @@ td{
 
 }
 .nome{
-    padding-left: 120px;
+    padding-left: 110px;
 }
 .medico{
-    padding-left: 200px;
+    padding-left: 190px;
 }
 .data{
-    padding-left: 235px;
+    padding-left: 225px;
 }
 .hora{
-    padding-left: 240px;
+    padding-left: 230px;
 }
 tbody td a{
     font-size: 14px;
