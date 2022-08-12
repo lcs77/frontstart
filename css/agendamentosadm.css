@@ -369,10 +369,13 @@ margin-bottom: 0;
    margin-right: 340px;
 }
 #titulotabelah{
-    margin-left: 70px;
+    margin-left: 290px;
 }
 #titulotabelam{
     margin-right: 200px;
+}
+#titulotabelad{
+    margin-left: 125px;
 }
 
 td{
