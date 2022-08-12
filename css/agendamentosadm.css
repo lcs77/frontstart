@@ -268,7 +268,7 @@ A {
 }
 
 .campodepesquisa .pesquisa button ::before{
-    position: absolute;
+    position: fixed;
     width: 1px;
     height: 24px;
     content: '';
@@ -346,6 +346,7 @@ margin-bottom: 0;
   background: #030c33;
   border-radius: 10px; 
   width: 1400px;
+  color: white;
 }
 
 
@@ -359,7 +360,7 @@ margin-bottom: 0;
     align-items: center;
     margin-left: 270px;
 }
-.titulotabela{
+.titulotabelaid{
     color: white;
     margin-right: 200px;
 }
