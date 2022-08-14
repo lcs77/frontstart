@@ -145,3 +145,99 @@ label #sidebar_btn:hover {
     color: #51b3ec;
 }
 
+.main{
+    padding-top: 150px;
+    margin-left: 400px;
+}
+.areanovoprontuario{
+    padding: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: -100px;
+    width: 100%;
+}
+
+.tituloprontuario{
+    color: #030c33;
+    margin-left: 45%;
+    font-size: 30px;
+}
+.linha-1{
+    color: #030c33;
+    width: 50%;
+    line-height: 30px;
+}
+#nome{
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+
+}
+#cpf{
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#datanascimento{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+.linha-2{
+    padding-left: 800px;
+    margin-top: -300px;
+    width: 50%;
+    color: #030c33;
+    line-height: 30px;
+}
+.arearelatorio{
+    padding-top: 20px;
+    color: #030c33;
+}
+.form-control{
+    width: 100%;
+    border-radius: 5px;
+    border-color: #51b3ec;
+    border-width: 2px;
+    border-top-width: 10px;
+    height: 200px;
+}
+.botoes{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+.confirmar{
+    background-color: #51b3ec;
+    border-radius: 5px;
+    color: #030c33;
+    height: 25px;
+    font-size: large;
+    border-width: 0px;
+    width: 100px;
+}
+.cancelar{
+    background-color: #51b3ec;
+    border-radius: 5px;
+    font-style: #030c33;
+    height: 25px;
+    font-size: large;
+    border-width: 0px;
+    width: 100px;
+}
+#cancelar{
+    color: #030c33;
+}
+.area-medicamentos{
+    width: 50%;
+    border-radius: 10px;
+    border-color: #51b3ec;
+    border-width: 2px;
+    border-top-width: 5px;
+    height: 40px;
+}
