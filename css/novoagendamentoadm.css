@@ -1,8 +1,6 @@
 body {
     background-color: #eff1f7;
-    text-decoration: none;
 }
-<<<<<<< HEAD
 
 #title {
     flex-direction: column;
@@ -10,66 +8,7 @@ body {
     margin-left: -30px;
     color: white;
     margin-top: 15px;
-=======
-.areanomefoto{
-  padding-left: 80px;
-  }
-  h2{
-     padding-right: 60px;
-  }
 
-html,body
-{
-  background-color:#030c33;
-  font-family: var(--open-sans);
-  color: #ffffff;
-}
-
-
-h1,
-h2,
-p
-
-{
-  line-height: 1em;
-  text-align: center;
-  color:#ffffff;
-}
-
-#titulo{
-font-size: 20px;
-  color:#ffffff;
-  padding-top: 5%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-    
-
-}
-
-
-section p small
-{
-  display: block;
-  padding: 3px;
-  text-align: left;
-}
-
-section
-{
-    height: 30%;
-    width: 80%;
-    display:flex;
-    justify-content: center;
-    padding-top: 80px;
-  
-}
-
-section p
-{
-  font-size: 20px;
- color: #ffffff;
->>>>>>> 28877c34f64a2af44bb6bcbcc2d0ac162e189bae
 }
 
 
@@ -83,6 +22,7 @@ section p
 
 #logo {
     display: flex;
+
 }
 
 header {
@@ -109,6 +49,13 @@ header {
     background: #030c33;
     transition: 0.5s;
     transition-property: left;
+    align-items: center;
+}
+.areanomefoto{
+padding-left: 80px;
+}
+h2{
+    padding-left: 15px;
 }
 
 #body {
@@ -118,7 +65,9 @@ header {
     margin-left: 200px;
     left: 80px;
     right: 200px;
+    
     padding-top: 30px;
+
 }
 
 .sidebar .imagem {
@@ -202,19 +151,6 @@ label #sidebar_btn:hover {
 .left span {
     color: #51b3ec;
 }
-
-.areacadastro{
-    padding: 20px;
-    background-color: #fff;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    align-items: center;
-    margin-left: -100px;
-    width: 1500px;
-    margin-left: 280px;
-    margin-top: 100px;
-}
-.controls{
-    text-decoration: none;
+.novoagendamento{
+    padding-top: 300px;
 }

@@ -9,20 +9,16 @@
     <link rel="stylesheet" href="link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">">
     <link media="projection, screen, tv" rel="stylesheet" type="text/css" href="/css/cadastropaciente.css">
     <link rel="stylesheet" href="/css/main.css">
-    <title>prontMED</title>
+    <title>Cadastro Médico</title>
 </head>
 
 <body>
 
     <div class="container">
-
-        <div class="alert alert-primary" role="alert">
-            Se você deseja voltar para a pagina *Tipo de Cadastro* <a href="/tipoCadastro.html" class="alert-link">CLIQUE AQUI</a>.
-        </div>
         
         <section>
              <img alt="logoprontmed" src="/assets/img.png">
-             <h1>Cadastro de Médico</h1>
+             <h1>Cadastro  Médico</h1>
                 <form action="/sent.html" method="get" data-jsv-form="true" data-jsv-form-invalid-message="Por favor, corrija os erros abaixo" data-jsv-form-incomplete-tooltip="Por favor, preencha os campos">
                     
                     <div class="group">
@@ -34,8 +30,8 @@
                         <div class="grid">
                             <div class="col-1-3">
                                 <div class="controls">
-                                    <label for="crm">CRM*</label>
-                                    <input type="text" id="crm" name="crm" placeholder="CRM/XX Número" data-jsv-validators="require" data-jsv-field-error-require="Não pode deixar campo de CRM vazio" />
+                                    <label for="crm">Nº de inscrição Conselho*</label>
+                                    <input type="text" id="crm" name="crm" placeholder="CRM" data-jsv-validators="require" data-jsv-field-error-require="Não pode deixar campo de CRM vazio" />
                                 </div>
                             </div>
 
@@ -68,19 +64,27 @@
                             </div>
 
                             <div class="col-1-3">
-                                <div class="controls">
-                                    <label for="number">Número*</label>
-                                    <input type="number" id="number" name="number" data-jsv-validators="require" data-jsv-field-error-require="O número não pode ser vazio" />
+                            <div class="controls">
+                            <label for="specialty">Especialidade</label>
+
+                                <select name="specialty" id="specialty">
+                                    <option value="blank">Selecione</option>
+                                    <option value="Pediatria">Pediatria</option>
+                                    <option value="Cardiologia">Cardiologia</option>
+                                    <option value="Dermatologia">Dermatologia</option>
+                                    <option value="Dermatologia">Dermatologia</option>
+                                    <option value="Anestesiologia">Anestesiologia</option>
+                                    <option value="Clínica médica">Clínica médica</option>
+                                    <option value="Ortopedia e Traumatologia">Ortopedia e Traumatologia</option>
+                                    <option value="Ginecologia e Obstetrícia">Ginecologia e Obstetrícia</option>
+                                </select>
+
                                 </div>
                             </div>
                         </div>
 
-                        <div class="controls">
-                            <label for="neighbourhood">Bairro</label>
-                            <input type="text" id="neighbourhood" name="neighbourhood">
-                        </div>
-
                         <div class="grid">
+
                             <div class="col-1-3">
                                 <div class="controls">
                                     <label for="city">Cidade*</label>
@@ -89,6 +93,7 @@
                             </div>
 
                             <div class="col-1-3">
+
                                 <div class="controls">
                                     <label for="state">Estado*</label>
                                     <select name="state" id="state" data-jsv-validators="require" />
@@ -121,6 +126,7 @@
                                       <option value="SE">Sergipe</option>
                                       <option value="TO">Tocantins</option>
                                     </select>
+
                                 </div>
                             </div>
 
@@ -133,46 +139,48 @@
                         </div>
 
                         <div class="grid">
-                            <div class="col-1-2">
+                            <div class="col-1-3">
                                 <div class="controls">
-                                    <label for="mobile">Celular*</label>
-                                    <input type="text" id="mobile" name="mobile" placeholder="(DD) XXXXX-XXXX" data-jsv-validators="pattern" data-jsv-pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$" data-jsv-field-error-pattern="Por favor, valide seu número de celular"/>
+                                    <label for="phone">Telefone*</label>
+                                    <input type="text" id="phone" name="phone" data-jsv-validators="require" data-jsv-field-error-require="Não pode deixar campo vazio"/>
                                 </div>
                             </div>
 
-                            <div class="col-1-2">
+                            <div class="col-1-3">
                                 <div class="controls">
-                                    <label for="email">E-mail*</label>
-                                    <input type="email" id="email" name="email" placeholder="email" data-jsv-validators="pattern" data-jsv-pattern="^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$" data-jsv-field-error-pattern="Por favor, valide endereço de email"/>
+
+                                    <label for="status">Estado Civil*</label>                              
+                                    <select name="status" id="status" data-jsv-validators="require"/>
+                                      <option value="selecione">Selecione</option>
+                                      <option value="Solteiro">Solteiro</option>
+                                      <option value="Casado">Casado</option>
+                                      <option value="Divorciado">Divorciado</option>
+                                      <option value="Viuvo">Viuvo</option>
+                                    </select>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-1-8">
-                            <div  class="controls2">
-                                <a class="menu">CONFIRMAR</a>
-                                <a class="menu">CANCELAR</a>
-                    </div>
+
+                            <div class="col-1-3">
+                                <div class="controls">
+                                    <label for="e-mail">E-mail</label>
+                                    <input type="text" id="e-mail" name="post-code" pattern="\d{5}-?\d{3}" placeholder="E-mail">
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </form>
         </section>
     </div>
-                 <p><small>*</small></p>
-
+    <p><small> O Preenchimento é obrigatório.</small></p>
     <footer>
-
-        <p><small> O Preenchimento é obrigatório.</small></p>
 
         <div class="container.footer">
             <p>© Projeto Start | ProntMED - O futuro do Gerenciamento</p>
-            <ul>
-                <li><a href="INSERIR ALGUM LINK AQUI">INSERIR ALGUM LINK AQUI</a></li>
-                <li><a href="https://www.instagram.com/start_recife/?hl=pt-br">START RECIFE</a></li>
-            </ul>
         </div>
 
     </footer>
 </body>
 
 </html>
+                                <!-- correção de pagina realizada "DLucka" --> 

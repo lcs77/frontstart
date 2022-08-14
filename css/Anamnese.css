@@ -50,7 +50,7 @@ button
 {
   background-color: var(--blue);
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   float: right;
   padding: 10px;

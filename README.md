@@ -4,6 +4,7 @@
 
 # Grupo;  Bruno! Jamile! Rafael! Bianca! David! Lucas!
 
-![123](https://user-images.githubusercontent.com/79919310/181861102-59efafcc-30b0-49f1-82bc-04dd22cea6a7.JPG)
+# O prontmed tem como objetivo trazer consigo a facilidade em gerenciar os dados do cliente com facilidade e fluidez, além de contar com um sistema de agendamento pratico e intuitivo;
 
+![123](https://user-images.githubusercontent.com/79919310/181861102-59efafcc-30b0-49f1-82bc-04dd22cea6a7.JPG)
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/frontstart/css/agendamentosadm.css">
+    <link rel="stylesheet" href="/css/agendamentosadm.css">
 
     <title> paginaagendamentos </title>
 </head>
@@ -21,7 +21,7 @@
             </label>
         </div>
         <div id="logo">
-            <img class="logo" alt="logo" src="/frontstart/assets/img.png">
+            <img class="logo" alt="logo" src="/assets/img.png">
 
             <div id="title" class="left">
                 <h1>ProntMed</h1>
@@ -32,20 +32,24 @@
     <div class="sidebar">
         <div class="areanomefoto">
 
-            <img src="/frontstart/assets/atendente1.png" class="imagem" alt>
+            <img src="/assets/atendente1.png" class="imagem" alt>
             <h2>Maria</h2>
         </div>
         <nav>
-            <a href="/frontstart/templates/paginaFuncionario/agendamentosadm.html">
+
+            
+            <a href="/templates/geral/agendamentosadm.html">
                 <ion-icon name="calendar-outline"></ion-icon><span>Agendamentos</span>
             </a>
-            <a href="/frontstart/templates/paginaFuncionario/novopaciente.html">
+            <a href="/templates/cadastros/novopaciente.html">
                 <ion-icon name="person-add-outline"></ion-icon><span>Novo paciente</span>
-                <a href="/templates/paginaFuncionario/novoProntuario.html">
-                    <ion-icon name="document-outline"></ion-icon><span>Novo Prontuario</span>
-                </a>
-                <a href="#">
-                    <ion-icon name="exit-outline"></ion-icon><span>Sair</span>
+            </a>
+            <a href="/templates/paginaFuncionario/novoProntuario.html">
+                <ion-icon name="document-outline"></ion-icon><span>Novo Prontuario</span>
+            </a>
+            <a>
+                <ion-icon name="exit-outline"></ion-icon><span>Sair</span>
+            </a>
         </nav>
     </div>
 
@@ -61,16 +65,16 @@
         <div class="headerpainel">
             <div class="cards">
                 <div class="row">
-                    <div class="cardagendamentosdia">
+                    <div class="cardagendamentos">
                         <h2 class="quantidade">18</h2>
                         <p>Consultas Marcadas</p>
-                        <img class="imagecard" src="/frontstart/assets/evento.png" alt="medico" />
+                        <img class="imagecard" src="/assets/evento.png" alt="Consultas Marcadas" />
                     </div>
 
-                    <div class="cardconsultasc">
+                    <div class="cardagendamentos">
                         <h2 class="quantidade">2</h2>
                         <p>Consultas Canceladas</p>
-                        <img class="imagecard" src="/frontstart/assets/cancelar-evento.png" alt="enfermeiro" />
+                        <img class="imagecard" src="/assets/cancelar-evento.png" alt="Consultas Canceladas" />
                     </div>
                    
 
@@ -92,9 +96,7 @@
                                 <input class="btnpesquisa" type="text" placeholder="Pesquise agendamentos aqui...">
                             </div>
                             <button class="botao" type="submit">
-                                <i class="ti-search">
-                                    <ion-icon name="search-outline"></ion-icon>
-                                </i>
+                                
                             </button>
 
                         </form>
@@ -111,7 +113,7 @@
             </div>
         </div>
         <div class="areaconsultas">
-            <div class="consultas" role="grid" style="width: 1514px;">
+            <div class="consultas" role="grid" style="width: 1470px;">
 
 
 
@@ -119,10 +121,10 @@
 
                     <ul class="headertabelas">
 
-                        <li class="titulotabela">ID</li>
+                        <li class="titulotabelaid">ID</li>
                         <li id="titulotabelan" class="titulotabela">Nome</li>
-                        <li class="titulotabela">Médico</li>
-                        <li class="titulotabela">Data</li>
+                        <li id="titulotabelam" class="titulotabela">Médico</li>
+                        <li id="titulotabelad"class="titulotabela">Data</li>
                         <li id="titulotabelah" class="titulotabela">Hora</li>
 
 
@@ -141,30 +143,12 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
-                                </a>
-                            </td>
-
-                        </tr>
-                        <tr role="row" class="dadostabconsulta">
-                            <td>1</td>
-                            <td class="nome">José Carlos Romero Silva </td>
-                            <td class="medico"> Ana Carolina de Jesus</td>
-                            <td class="data">06/08/2022</td>
-                            <td class="hora">08:30</td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
@@ -177,30 +161,12 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
-                                </a>
-                            </td>
-
-                        </tr>
-                        <tr role="row" class="dadostabconsulta">
-                            <td>1</td>
-                            <td class="nome">José Carlos Romero Silva </td>
-                            <td class="medico"> Ana Carolina de Jesus</td>
-                            <td class="data">06/08/2022</td>
-                            <td class="hora">08:30</td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
@@ -213,30 +179,12 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
-                                </a>
-                            </td>
-
-                        </tr>
-                        <tr role="row" class="dadostabconsulta">
-                            <td>1</td>
-                            <td class="nome">José Carlos Romero Silva </td>
-                            <td class="medico"> Ana Carolina de Jesus</td>
-                            <td class="data">06/08/2022</td>
-                            <td class="hora">08:30</td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
@@ -249,30 +197,12 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
-                                </a>
-                            </td>
-
-                        </tr>
-                        <tr role="row" class="dadostabconsulta">
-                            <td>1</td>
-                            <td class="nome">José Carlos Romero Silva </td>
-                            <td class="medico"> Ana Carolina de Jesus</td>
-                            <td class="data">06/08/2022</td>
-                            <td class="hora">08:30</td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
@@ -285,30 +215,12 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
-                                </a>
-                            </td>
-
-                        </tr>
-                        <tr role="row" class="dadostabconsulta">
-                            <td>1</td>
-                            <td class="nome">José Carlos Romero Silva </td>
-                            <td class="medico"> Ana Carolina de Jesus</td>
-                            <td class="data">06/08/2022</td>
-                            <td class="hora">08:30</td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
@@ -321,12 +233,102 @@
                             <td class="hora">08:30</td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td>1</td>
+                            <td class="nome">José Carlos Romero Silva </td>
+                            <td class="medico"> Ana Carolina de Jesus</td>
+                            <td class="data">06/08/2022</td>
+                            <td class="hora">08:30</td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td>1</td>
+                            <td class="nome">José Carlos Romero Silva </td>
+                            <td class="medico"> Ana Carolina de Jesus</td>
+                            <td class="data">06/08/2022</td>
+                            <td class="hora">08:30</td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td>1</td>
+                            <td class="nome">José Carlos Romero Silva </td>
+                            <td class="medico"> Ana Carolina de Jesus</td>
+                            <td class="data">06/08/2022</td>
+                            <td class="hora">08:30</td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td>1</td>
+                            <td class="nome">José Carlos Romero Silva </td>
+                            <td class="medico"> Ana Carolina de Jesus</td>
+                            <td class="data">06/08/2022</td>
+                            <td class="hora">08:30</td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td>1</td>
+                            <td class="nome">José Carlos Romero Silva </td>
+                            <td class="medico"> Ana Carolina de Jesus</td>
+                            <td class="data">06/08/2022</td>
+                            <td class="hora">08:30</td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/assets/excluir.png" alt="">
                                 </a>
                             </td>
 
