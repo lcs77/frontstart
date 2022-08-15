@@ -9,7 +9,11 @@
 
     <title> paginanovoagendamneto </title>
 </head>
-
+<style>
+    a{
+        text-decoration: none;
+    }
+</style>
 
 <body>
     <input type="checkbox" id="check">
@@ -61,10 +65,23 @@
     <div id="painel" class="main">
         <div class="novoagendamento">
             <form action="#" method="post">
-                <label for="nomePaciente">Nome Paciente:</label>
-                <input type="text" id="nomePaciente">
+                <form method="post" action=""class="form">
+                    <div class="areacadastro">
+            
+                    <label>Nome: </label><input type="text" name="nome" class="nome" id="nome"><br>
+                    
+                    <label>Medico: </label><input type="medico" name="medico" class="medico" id="medico"><br>
+                    
+                    <label>Data: </label><input type="date" name="data" class="data" id="data"><br>
+                    
+                    
+                    <label>Hora:</label><input type="time" name="hora" id="hora" class="hora" id="hora"><br>
+                    <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar" >
+                    
+                </div>
                 
             </form>
+            
         </div>
         
     </div>

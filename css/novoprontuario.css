@@ -94,7 +94,7 @@ header {
 .sidebar ion-icon {
     padding-right: 30px;
 }
-/botão/
+/*botão*/
 label #sidebar_btn {
     z-index: 1;
     position: fixed;
@@ -106,7 +106,7 @@ label #sidebar_btn {
     transition: 0.5s;
     transition-property: color;
 }
-/cor do botão quando clica/
+/*cor do botão quando clica*/
 label #sidebar_btn:hover {
     color: #51b3ec;
 }
