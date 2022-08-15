@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/agendamentopacien.css">
+
+    <title> paginaagendamentos </title>
+</head>
+
+
+<body>
+    <input type="checkbox" id="check">
+    <!--header começo-->
+    <header>
+        <div>
+            <label for="check">
+                <ion-icon name="menu-outline" id="sidebar_btn" onclick="movepainel()"></ion-icon>
+            </label>
+        </div>
+        <div id="logo">
+            <img class="logo" alt="logo" src="/assets/img.png">
+
+            <div id="title" class="left">
+                <h1>ProntMed</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <div class="areanomefoto">
+
+            <img src="/assets/atendente1.png" class="imagem" alt>
+            <h2>Maria</h2>
+        </div>
+        <nav>
+
+            
+            <a href="/templates/geral/agendamentosadm.html">
+                <ion-icon name="calendar-outline"></ion-icon><span>Agendamentos</span>
+            </a>
+            <a href="/templates/cadastros/novopaciente.html">
+                <ion-icon name="person-add-outline"></ion-icon><span>Novo paciente</span>
+            </a>
+            <a href="/templates/paginaFuncionario/novoProntuario.html">
+                <ion-icon name="document-outline"></ion-icon><span>Novo Prontuario</span>
+            </a>
+            <a>
+                <ion-icon name="exit-outline"></ion-icon><span>Sair</span>
+            </a>
+        </nav>
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <div id="painel" class="main">
+        <!--AQUI ESCREVE CONTEUDO DA PAGINA -->
+        <div class="headerpainel">
+            <div class="cards">
+                <div class="row">
+                    
+                   
+
+                </div>
+            </div>
+        </div>
+        <div class="agendamentos">
+
+            <div class="headeragendamentos">
+                <h4 class="titulo">Agendamentos</h4>
+            </div>
+            
+            <div class="barradepesquisa">
+
+                <div class="campodepesquisa">
+                    <div class="pesquisa">
+                        <form>
+                            <div class="areadepesquisa">
+                                <input class="btnpesquisa" type="text" placeholder="Pesquise agendamentos aqui...">
+                            </div>
+                            <button class="botao" type="submit">
+                                
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+        </div>
+        <div class="areaconsultas">
+            <div class="consultas" role="grid" style="width: 1470px;">
+
+
+
+                <div class="headertabelaconsultas">
+
+                    <ul class="headertabelas">
+
+                        <li class="titulotabelaid">ID</li>
+                        <li id="titulotabelan" class="titulotabela">Nome</li>
+                        <li id="titulotabelam" class="titulotabela">CPF</li>
+                        <li id="titulotabelad"class="titulotabela">RG</li>
+                        <li id="titulotabelah" class="titulotabela">Data de Nascimento</li>
+
+
+                    </ul>
+
+                </div>
+                <table class="datatable">
+
+                    <tbody class="listaconsultas">
+
+                        <tr role="row" class="dadostabconsulta">
+                            <td></td>
+                            <td class="nome"></td>
+                            <td class="CPF"> </td>
+                            <td class="RG"></td>
+                            <td class="datadn"></td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td></td>
+                            <td class="nome"></td>
+                            <td class="CPF"> </td>
+                            <td class="RG"></td>
+                            <td class="datadn"></td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconsulta">
+                            <td></td>
+                            <td class="nome"></td>
+                            <td class="CPF"> </td>
+                            <td class="RG"></td>
+                            <td class="datadn"></td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+                        <tr role="row" class="dadostabconasulta">
+                            <td></td>
+                            <td class="nome"></td>
+                            <td class="CPF"> </td>
+                            <td class="RG"></td>
+                            <td class="datadn"></td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnedit" src="/frontstart/assets/editar-texto.png" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img class="imgbtnexcluir" src="/frontstart/assets/excluir.png" alt="">
+                                </a>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/frontstart/js/agendamentos.js"></script>
+</body>
+
+</html>
