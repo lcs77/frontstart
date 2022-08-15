@@ -11,11 +11,12 @@ formulario1.addEventListener('submit', function (event) {
 
 function cadastro() {
     //fas o post para o backend
-    var xh = new XMLHttpRequest();
-    xhr.open("post", "http://localhost:8080/salvaAdmin", true);
+    var xhr = new XMLHttpRequest();
+    xhr.open("post", "http://localhost:8080/cadastro/salvaAdmin", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Accept', '*/*');
-    const requestJson = criaJson1();
+    const requestJson = criaJson();
+    console.log("aqui");
     console.log(requestJson);
     xhr.send(requestJson);
     console.log(xhr);
@@ -41,7 +42,7 @@ function criaJson(){
         nome: Inome.value,
         email: Iemail.value,
         matricula: Imatricula.value,
-        senha: Isenha.value,
+        senha: Isenha.value
         
     })
 }
