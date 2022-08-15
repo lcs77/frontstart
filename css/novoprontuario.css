@@ -241,3 +241,6 @@ label #sidebar_btn:hover {
     border-top-width: 5px;
     height: 40px;
 } 
+.tabelaResposta{
+    width: 100%;
+}

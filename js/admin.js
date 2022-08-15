@@ -12,15 +12,15 @@ formulario1.addEventListener('submit', function (event) {
 function cadastro() {
     //fas o post para o backend
     var xh = new XMLHttpRequest();
-    xh.open("post", "http://localhost:8080/salvaAdmin", true);
-    xh.setRequestHeader('Content-Type', 'application/json');
-    xh.setRequestHeader('Accept', '*/*');
+    xhr.open("post", "http://localhost:8080/salvaAdmin", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Accept', '*/*');
     const requestJson = criaJson1();
     console.log(requestJson);
-    xh.send(requestJson);
-    console.log(xh);
+    xhr.send(requestJson);
+    console.log(xhr);
     //debug - investigação
-    xh.onreadystatechange = function () {
+    xhr.onreadystatechange = function () {
         console.log(this.readyState);//debug - investigação
         console.log(this.status);    
         console.log(this);    
@@ -30,7 +30,7 @@ function cadastro() {
     
    
 }
-function criaJson1(){
+function criaJson(){
     const Inome = document.querySelector(".nome");
     const Iemail = document.querySelector(".email");
     const Imatricula = document.querySelector(".matricula");
