@@ -154,3 +154,56 @@ label #sidebar_btn:hover {
 .novoagendamento{
     padding-top: 300px;
 }
+.areacadastro{
+    padding: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: -100px;
+    width: 300px;
+	height: 300px;
+    margin-left: 40%;
+    margin-top: -100px;
+    font-size: 25px;
+}
+#nome{
+
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
+    font-size: 25px;
+}
+#medico{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
+    font-size: 25px;
+}
+#data{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
+    font-size: 15px;
+}
+#hora{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
+    font-size: 15px;
+}
+#cadastrar{
+    width: 250px;
+    background-color:#030c33;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
