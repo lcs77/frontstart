@@ -1,6 +1,6 @@
 const formulario = document.querySelector("form");
 
-
+pegarTabelaDeDados();
 
 
 
@@ -25,15 +25,39 @@ function cadastrar() {
     console.log(xhr);
     //debug - investigação
     xhr.onreadystatechange = function () {
+        this.responseText;
         console.log(this.readyState);//debug - investigação
         console.log(this.status);    
         console.log(this);    
        
     };
-
-    
-   
 }
+
+function pegarTabelaDeDados() {
+    //fas o post para o backend
+  //   var xhr = new XMLHttpRequest();
+    //xhr.open("get", "http://localhost:8080/pegarProntuario", true);
+   // xhr.setRequestHeader('Content-Type', 'application/json');
+   // xhr.setRequestHeader('Accept', '*/*');
+
+    //xhr.send();
+  //  console.log(xhr);
+    //debug - investigação
+  //  xhr.onreadystatechange = function () {
+   //     var resp  = JSON.parse(this.responseText);
+    
+        new gridjs.Grid({
+            columns: ["Name", "Email", "Phone Number"],
+            search: true,
+            data: resp
+          }).render(document.getElementById("tabelaResposta"));
+    //    console.log(this.readyState);//debug - investigação
+     //   console.log(this.status);    
+     //   console.log(this);    
+       
+   // };
+}
+
 function criaJson(){
     const Inome = document.querySelector(".nome");
     const Icpf = document.querySelector(".cpf");

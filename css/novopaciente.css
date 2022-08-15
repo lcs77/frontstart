@@ -290,6 +290,16 @@ label #sidebar_btn:hover {
     border-color: #51b3ec;
     margin-top: 25;
 }
+#datanascimento{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+    margin-top: 25;
+    height: 30px;
+    background-color: white;
+    border-width: 2px;  
+}
 .controls{
     color: #030c33;
     font-size: 20px;
