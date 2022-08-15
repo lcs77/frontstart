@@ -1,6 +1,6 @@
 const formulario = document.querySelector("form");
 
-
+pegarTabelaDeDados();
 
 
 
@@ -10,13 +10,13 @@ formulario.addEventListener('submit', function (event) {
     event.preventDefault();
     console.log("eventListner")
     cadastrar();
-    // limpar();
+    limpar();
 });
 
 function cadastrar() {
     //fas o post para o backend
     var xhr = new XMLHttpRequest();
-    xhr.open("post", "http://localhost:8080/salvaProntuario", true);
+    xhr.open("post", "http://localhost:9191/salvaProntuario", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Accept', '*/*');
     const requestJson = criaJson();
@@ -25,15 +25,42 @@ function cadastrar() {
     console.log(xhr);
     //debug - investigação
     xhr.onreadystatechange = function () {
+        this.responseText;
         console.log(this.readyState);//debug - investigação
         console.log(this.status);    
         console.log(this);    
        
     };
-
-    
-   
 }
+
+function pegarTabelaDeDados() {
+    //fas o post para o backend
+    var xhr = new XMLHttpRequest();
+    xhr.open("get", "http://localhost:9191/pegarProntuario", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Accept', '*/*');
+
+    xhr.send();
+    console.log(xhr);
+    //debug - aguarda resposta do java
+    xhr.onreadystatechange = function () {
+        console.log(this.responseText);
+        var resp  = criaTabela(this.responseText);
+        console.log(resp);
+    
+        new gridjs.Grid({
+            columns: ["nome", "cpf", "dataNascimento","tabagismo"],
+            search: true,
+            data: resp
+          }).render(document.getElementById("tabelaResposta"));
+    };
+}
+
+function criaTabela(json){
+    var resposta = JSON.parse(json);
+    return resposta;
+}
+
 function criaJson(){
     const Inome = document.querySelector(".nome");
     const Icpf = document.querySelector(".cpf");

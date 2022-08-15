@@ -2,7 +2,7 @@ body {
     background-color: #eff1f7;
     text-decoration: none;
 }
-<<<<<<< HEAD
+
 
 #title {
     flex-direction: column;
@@ -10,20 +10,13 @@ body {
     margin-left: -30px;
     color: white;
     margin-top: 15px;
-=======
+}
 .areanomefoto{
   padding-left: 80px;
   }
   h2{
      padding-right: 60px;
   }
-
-html,body
-{
-  background-color:#030c33;
-  font-family: var(--open-sans);
-  color: #ffffff;
-}
 
 
 h1,
@@ -69,7 +62,6 @@ section p
 {
   font-size: 20px;
  color: #ffffff;
->>>>>>> 28877c34f64a2af44bb6bcbcc2d0ac162e189bae
 }
 
 
@@ -217,4 +209,122 @@ label #sidebar_btn:hover {
 }
 .controls{
     text-decoration: none;
+}
+.titulocard{
+    color: #030c33;
+}
+#nome{
+    width: 1300px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#cpf{
+    width: 700px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#rg{
+    width: 630px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#sex{
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+    height: 30px;
+    background-color: white;
+    border-width: 2px;
+}
+#endereco{
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#numero{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+}
+#bairro{
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        border-color: #51b3ec;
+        margin-top: 25;
+    }
+#cidade{
+    width: 300px;
+        height: 25px;
+        border-radius: 10px;
+        border-color: #51b3ec;
+        margin-top: 25;
+}
+#estado{
+    width: 100px;
+        height: 25px;
+        border-radius: 10px;
+        border-color: #51b3ec;
+        margin-top: 25;
+        height: 30px;
+        background-color: white;
+        border-width: 2px;
+}
+#cep{
+    width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        border-color: #51b3ec;
+        margin-top: 25;
+}
+#telefone{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+    margin-top: 25;
+}
+#datanascimento{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #51b3ec;
+    margin-top: 25;
+    height: 30px;
+    background-color: white;
+    border-width: 2px;  
+}
+.controls{
+    color: #030c33;
+    font-size: 20px;
+    line-height: 40px;
+}
+.botoes{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.confirmar{
+    background-color: #51b3ec;
+    border-radius: 5px;
+    color: #030c33;
+    height: 25px;
+    font-size: large;
+    border-width: 0px;
+    width: 100px;
+}
+.cancelar{
+    background-color: #51b3ec;
+    border-radius: 5px;
+
+    height: 25px;
+    font-size: large;
+    border-width: 0px;
+    width: 100px;
+    color: #030c33;
 }
