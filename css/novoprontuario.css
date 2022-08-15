@@ -58,7 +58,7 @@ header {
     margin-left: 200px;
     left: 80px;
     right: 200px;
-    
+
     padding-top: 30px;
 
 }
@@ -240,4 +240,4 @@ label #sidebar_btn:hover {
     border-width: 2px;
     border-top-width: 5px;
     height: 40px;
-}
+} 

@@ -10,7 +10,7 @@ formulario.addEventListener('submit', function (event) {
     event.preventDefault();
     console.log("eventListner")
     cadastrar();
-    // limpar();
+    limpar();
 });
 
 function cadastrar() {
