@@ -94,7 +94,7 @@ header {
 .sidebar ion-icon {
     padding-right: 30px;
 }
-/*botão*/
+/botão/
 label #sidebar_btn {
     z-index: 1;
     position: fixed;
@@ -106,7 +106,7 @@ label #sidebar_btn {
     transition: 0.5s;
     transition-property: color;
 }
-/*cor do botão quando clica*/
+/cor do botão quando clica/
 label #sidebar_btn:hover {
     color: #51b3ec;
 }
@@ -169,41 +169,46 @@ label #sidebar_btn:hover {
     color: #030c33;
     width: 50%;
     line-height: 30px;
+    font-size: 20px;
 }
 #nome{
     width: 600px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #030c33;
 
 }
 #cpf{
     width: 600px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #030c33;
 }
 #datanascimento{
     width: 120px;
-    height: 25px;
+    height: 40px;
     border-radius: 10px;
-    border-color: #51b3ec;
+    border-color: #030c33;
+    font-size: 15px;
 }
 .linha-2{
     padding-left: 800px;
-    margin-top: -300px;
+    margin-top: -325px;
     width: 50%;
     color: #030c33;
     line-height: 30px;
+    font-size: 20px;
 }
 .arearelatorio{
-    padding-top: 20px;
+    padding-top: 35px;
     color: #030c33;
+    font-size: 20px;
+
 }
 .form-control{
     width: 100%;
     border-radius: 5px;
-    border-color: #51b3ec;
+    border-color: #030c33;
     border-width: 2px;
     border-top-width: 10px;
     height: 200px;
@@ -213,30 +218,31 @@ label #sidebar_btn:hover {
     margin-left: 45%;
 }
 .confirmar{
-    background-color: #51b3ec;
+    background-color: #030c33;
     border-radius: 5px;
-    color: #030c33;
-    height: 25px;
+    color: #51b3ec;
+    height: 30px;
     font-size: large;
     border-width: 0px;
     width: 100px;
 }
 .cancelar{
-    background-color: #51b3ec;
+    background-color: #030c33;
     border-radius: 5px;
-    font-style: #030c33;
-    height: 25px;
+    color: #51b3ec;
+    height: 30px;
     font-size: large;
     border-width: 0px;
     width: 100px;
+
 }
 #cancelar{
-    color: #030c33;
+    color: #51b3ec;
 }
 .area-medicamentos{
     width: 50%;
     border-radius: 10px;
-    border-color: #51b3ec;
+    border-color: #030c33;
     border-width: 2px;
     border-top-width: 5px;
     height: 40px;

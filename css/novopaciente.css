@@ -144,7 +144,7 @@ header {
 .sidebar ion-icon {
     padding-right: 30px;
 }
-/*botão*/
+/botão/
 label #sidebar_btn {
     z-index: 1;
     position: fixed;
@@ -156,7 +156,7 @@ label #sidebar_btn {
     transition: 0.5s;
     transition-property: color;
 }
-/*cor do botão quando clica*/
+/cor do botão quando clica/
 label #sidebar_btn:hover {
     color: #51b3ec;
 }
@@ -209,122 +209,126 @@ label #sidebar_btn:hover {
 }
 .controls{
     text-decoration: none;
+    padding-top: 20px;
 }
 .titulocard{
     color: #030c33;
 }
 #nome{
     width: 1300px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
 }
 #cpf{
     width: 700px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
 }
 #rg{
     width: 630px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
 }
 #sex{
     width: 600px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
     height: 30px;
     background-color: white;
     border-width: 2px;
+    font-size: 15px;
 }
 #endereco{
     width: 600px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
 }
 #numero{
     width: 100px;
-    height: 25px;
+    height: 35px;
     border-radius: 10px;
-    border-color: #51b3ec;
+    border-color: #030c33;
 }
 #bairro{
         width: 200px;
-        height: 25px;
-        border-radius: 10px;
-        border-color: #51b3ec;
+        height: 35px;
+        border-radius: 5px;
+        border-color: #030c33;
         margin-top: 25;
     }
 #cidade{
     width: 300px;
-        height: 25px;
-        border-radius: 10px;
-        border-color: #51b3ec;
+        height: 35px;
+        border-radius: 5px;
+        border-color: #030c33;
         margin-top: 25;
 }
 #estado{
     width: 100px;
-        height: 25px;
-        border-radius: 10px;
-        border-color: #51b3ec;
+        height: 35px;
+        border-radius: 5px;
+        border-color: #030c33;
         margin-top: 25;
         height: 30px;
         background-color: white;
         border-width: 2px;
+        font-size: 15px;
 }
 #cep{
     width: 200px;
-        height: 25px;
-        border-radius: 10px;
-        border-color: #51b3ec;
+        height: 35px;
+        border-radius: 5px;
+        border-color: #030c33;
         margin-top: 25;
 }
 #telefone{
     width: 200px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
     margin-top: 25;
 }
 #datanascimento{
     width: 100px;
-    height: 25px;
-    border-radius: 10px;
-    border-color: #51b3ec;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #030c33;
     margin-top: 25;
     height: 30px;
     background-color: white;
     border-width: 2px;  
+    font-size: 15px;
 }
 .controls{
     color: #030c33;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
 }
 .botoes{
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 .confirmar{
-    background-color: #51b3ec;
+    background-color: #030c33;
     border-radius: 5px;
-    color: #030c33;
-    height: 25px;
+    color: #51b3ec;
+    height: 55px;
     font-size: large;
     border-width: 0px;
     width: 100px;
 }
 .cancelar{
-    background-color: #51b3ec;
+    background-color: #030c33;
     border-radius: 5px;
 
-    height: 25px;
+    height: 55px;
     font-size: large;
     border-width: 0px;
     width: 100px;
-    color: #030c33;
+    color: #51b3ec;
 }
