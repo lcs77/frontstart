@@ -16,7 +16,7 @@ formulario.addEventListener('submit', function (event) {
 function cadastrar() {
     //fas o post para o backend
     var xhr = new XMLHttpRequest();
-    xhr.open("post", "http://localhost:8080/salvaProntuario", true);
+    xhr.open("post", "http://localhost:9191/salvaProntuario", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Accept', '*/*');
     const requestJson = criaJson();
@@ -35,27 +35,30 @@ function cadastrar() {
 
 function pegarTabelaDeDados() {
     //fas o post para o backend
-  //   var xhr = new XMLHttpRequest();
-    //xhr.open("get", "http://localhost:8080/pegarProntuario", true);
-   // xhr.setRequestHeader('Content-Type', 'application/json');
-   // xhr.setRequestHeader('Accept', '*/*');
+    var xhr = new XMLHttpRequest();
+    xhr.open("get", "http://localhost:9191/pegarProntuario", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Accept', '*/*');
 
-    //xhr.send();
-  //  console.log(xhr);
-    //debug - investigação
-  //  xhr.onreadystatechange = function () {
-   //     var resp  = JSON.parse(this.responseText);
+    xhr.send();
+    console.log(xhr);
+    //debug - aguarda resposta do java
+    xhr.onreadystatechange = function () {
+        console.log(this.responseText);
+        var resp  = criaTabela(this.responseText);
+        console.log(resp);
     
         new gridjs.Grid({
-            columns: ["Name", "Email", "Phone Number"],
+            columns: ["nome", "cpf", "dataNascimento","tabagismo"],
             search: true,
             data: resp
           }).render(document.getElementById("tabelaResposta"));
-    //    console.log(this.readyState);//debug - investigação
-     //   console.log(this.status);    
-     //   console.log(this);    
-       
-   // };
+    };
+}
+
+function criaTabela(json){
+    var resposta = JSON.parse(json);
+    return resposta;
 }
 
 function criaJson(){
