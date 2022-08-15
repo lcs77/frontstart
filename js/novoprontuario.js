@@ -16,7 +16,7 @@ formulario.addEventListener('submit', function (event) {
 function cadastrar() {
     //fas o post para o backend
     var xhr = new XMLHttpRequest();
-    xhr.open("post", "http://localhost:9191/salvaProntuario", true);
+    xhr.open("post", "http://localhost:8080/salvaProntuario", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Accept', '*/*');
     const requestJson = criaJson();
@@ -36,7 +36,7 @@ function cadastrar() {
 function pegarTabelaDeDados() {
     //fas o post para o backend
     var xhr = new XMLHttpRequest();
-    xhr.open("get", "http://localhost:9191/pegarProntuario", true);
+    xhr.open("get", "http://localhost:8080/pegarProntuario", true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Accept', '*/*');
 
